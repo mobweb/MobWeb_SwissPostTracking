@@ -1,0 +1,20 @@
+app/code/local/MobWeb/SwissPostTracking app/code/local/MobWeb/SwissPostTracking/
+
+app/design/frontend/base/default/layout/mobweb_swissposttracking.xml app/design/frontend/base/default/layout/mobweb_swissposttracking.xml
+
+app/design/frontend/base/default/template/MobWeb_SwissPostTracking/
+app/design/frontend/base/default/template/MobWeb_SwissPostTracking/
+
+app/design/frontend/default/default/template/email/order/shipment/track.phtml app/design/frontend/default/default/template/email/order/shipment/track.phtml
+
+app/locale/de_CH/MobWeb_SwissPostTracking.csv app/locale/de_CH/MobWeb_SwissPostTracking.csv 
+app/locale/de_DE/MobWeb_SwissPostTracking.csv app/locale/de_DE/MobWeb_SwissPostTracking.csv 
+app/locale/fr_FR/MobWeb_SwissPostTracking.csv app/locale/fr_FR/MobWeb_SwissPostTracking.csv 
+app/locale/fr_CH/MobWeb_SwissPostTracking.csv app/locale/fr_CH/MobWeb_SwissPostTracking.csv 
+app/locale/it_IT/MobWeb_SwissPostTracking.csv app/locale/it_IT/MobWeb_SwissPostTracking.csv 
+app/locale/it_CH/MobWeb_SwissPostTracking.csv app/locale/it_CH/MobWeb_SwissPostTracking.csv 
+
+app/etc/modules/MobWeb_SwissPostTracking.xml app/etc/modules/MobWeb_SwissPostTracking.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

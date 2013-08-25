@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config> 
+    <modules>
+        <MobWeb_SwissPostTracking>
+            <version>0.0.1</version>
+        </MobWeb_SwissPostTracking>
+    </modules>
+    <global>
+        <blocks>
+            <mobweb_swissposttracking>
+                <class>MobWeb_SwissPostTracking_Block</class>
+            </mobweb_swissposttracking>
+            <adminhtml>
+                <rewrite>
+                    <sales_order_shipment_create_tracking>MobWeb_SwissPostTracking_Block_Sales_Order_Shipment_Create_Tracking</sales_order_shipment_create_tracking>
+                    <sales_order_shipment_view_tracking>MobWeb_SwissPostTracking_Block_Sales_Order_Shipment_View_Tracking</sales_order_shipment_view_tracking>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <MobWeb_SwissPostTracking>
+                    <file>mobweb_swissposttracking.xml</file>
+                </MobWeb_SwissPostTracking>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <MobWeb_SwissPostTracking>
+                    <files>
+                        <default>MobWeb_SwissPostTracking.csv</default>
+                    </files>
+                </MobWeb_SwissPostTracking>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>

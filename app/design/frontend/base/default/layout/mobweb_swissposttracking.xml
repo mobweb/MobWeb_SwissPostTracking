@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <shipping_tracking_popup>
+        <reference name="shipping.tracking.popup">
+            <action method="setTemplate">               
+                <template>MobWeb_SwissPostTracking/shipping/tracking/popup.phtml</template>
+            </action>
+        </reference>
+    </shipping_tracking_popup> 
+</layout>

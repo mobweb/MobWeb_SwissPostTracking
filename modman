@@ -1,4 +1,4 @@
-app/code/local/MobWeb/SwissPostTracking app/code/local/MobWeb/SwissPostTracking/
+app/code/community/MobWeb/SwissPostTracking app/code/community/MobWeb/SwissPostTracking/
 
 app/design/frontend/base/default/layout/mobweb_swissposttracking.xml app/design/frontend/base/default/layout/mobweb_swissposttracking.xml
 

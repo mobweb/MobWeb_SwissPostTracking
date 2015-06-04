@@ -12,6 +12,8 @@ This link will be available in the shipment confirmation email sent to your cust
 
 Install using [colinmollenhour/modman](https://github.com/colinmollenhour/modman/).
 
+If you are using a custom design theme, you will have to copy the `email/order/shipment/track.phtml` template to your custom design theme's `template` folder.
+
 ## Questions? Need help?
 
 Most of my repositories posted here are projects created for customization requests for clients, so they probably aren't very well documented and the code isn't always 100% flexible. If you have a question or are confused about how something is supposed to work, feel free to get in touch and I'll try and help: [info@mobweb.ch](mailto:info@mobweb.ch).

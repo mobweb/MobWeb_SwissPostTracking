@@ -127,7 +127,7 @@
                     // If the parcel was sent using Swiss Post, link the number directly
                     // to the Track & Trace website
                     if(strpos($title, 'Swiss Post') !== false || strpos($title, 'Schweizerische Post') !== false || strpos($title, 'Poste Suisse') !== false || strpos($title, 'Posta Svizzera') !== false) {
-                        $number = sprintf('<a href="http://www.post.ch/post-startseite/post-geschaeftskunden/post-track-and-trace-search-gk.htm?formattedParcelCodes=%s&directSearch=false&VTI-GROUP=1" target="_new">%s</a>', $number, $number);
+                        $number = sprintf('<a href="https://service.post.ch/EasyTrack/submitParcelData.do?formattedParcelCodes=%s" target="_new">%s</a>', $number, $number);
                     }
                     ?>
                     <tr>

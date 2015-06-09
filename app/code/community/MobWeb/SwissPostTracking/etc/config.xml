@@ -17,6 +17,13 @@
                 </rewrite>
             </adminhtml>
         </blocks>
+        <helpers>
+            <shipping>
+                <rewrite>
+                    <data>MobWeb_SwissPostTracking_Helper_Data</data>
+                </rewrite>
+            </shipping>
+        </helpers>
     </global>
     <frontend>
         <layout>
